@@ -45,3 +45,9 @@ nav .nav-active {
     background-color: antiquewhite;
     color: black;
 }
+
+@media only screen and (max-width: 800px) {
+  nav ul li {
+      float: none;
+  }
+}
